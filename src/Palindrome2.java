@@ -4,7 +4,7 @@ public class Palindrome2 {
         char[] ch = str.toCharArray();
         int len = ch.length;
         for (int i = 0; i < len/2; i++) {
-            if (ch[i] != ch[len -i -1]){
+            if (ch[i] != ch[len - i -1]){
                 return false;
             }
         }
